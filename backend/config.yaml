@@ -1,0 +1,30 @@
+settings:
+  root: "."
+
+  dirs:
+    include:
+      - "test"
+
+    ignore:
+      - "generated"
+      - ".git"
+
+  files:
+    include:
+      - "*.c"
+      - "*.h"
+      - "*.cpp"
+      - "*.hpp"
+
+    ignore:
+      - "foo.c"
+
+  comments:
+    - "//"
+
+  anchors:
+    - "TODO:"
+    - "FIXME:"
+    - "BUG:"
+
+  refresh-time: 5
