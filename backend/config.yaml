@@ -3,10 +3,10 @@ settings:
 
   dirs:
     include:
-      - "test"
+      - "*"
 
     ignore:
-      - "generated"
+      - "**/generated"
       - ".git"
 
   files:
